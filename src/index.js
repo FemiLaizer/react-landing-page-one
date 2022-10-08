@@ -7,6 +7,8 @@ import "./index.css"
 // import components
 import Header from "./header";
 import Banner from "./banner";
+import Services from "./services";
+import Blog from "./blog";
 import Collections from "./collections";
 import Contactus from "./contactus";
 
@@ -19,10 +21,15 @@ function Content() {
         <section>
             <Header />
             <Banner />
-            {collection.map(item => {
-                return <Collections key={item.id} {...item}></Collections>
-            })}
-
+            <Services >
+            </Services>
+            <section className="collection">
+                {collection.map(item => {
+                    return <Collections key={item.id} {...item}>
+                    </Collections>
+                })}
+            </section>
+            <Blog />
             <Contactus></Contactus>
         </section>
     )
