@@ -2,7 +2,7 @@ import React from 'react'
 
 const footer = () => {
     return (
-        <div id='footer'>footer</div>
+        <div id='footer'>&copy; doesneakers 2022.</div>
     )
 }
 

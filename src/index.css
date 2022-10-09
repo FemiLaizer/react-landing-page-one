@@ -5,6 +5,8 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background: #f8dddd;
     font-family: sans-serif;
 }
@@ -15,7 +17,7 @@ html {
 
 #nav-bar {
     width: 100%;
-    margin: 10px;
+    margin: 0.5rem 0;
     display: flex;
     justify-content: space-between;
     font-weight: 600;
@@ -25,6 +27,7 @@ html {
 
 #nav-bar .logo {
     cursor: pointer;
+    margin-left: 1.5em;
 }
 
 #nav-bar ul {
@@ -32,7 +35,7 @@ html {
 }
 
 #nav-bar ul li {
-    padding: 0 10px 0 0;
+    margin-right: 1.5em;
     list-style: none;
 }
 
@@ -62,12 +65,11 @@ html {
     height: 400px;
     display: flex;
     background: url("./img/photo-sneaker.jpg");
-    /* border: 1px solid black; */
 }
 
 .banner-img img {
-    margin: 20%;
-    width: 250px;
+    /* margin: 20%; */
+    width: 100%;
     height: 250px;
     display: flex;
     background: #f8dddd;
@@ -79,7 +81,7 @@ html {
     font-weight: 700;
     color: #fff;
     border: 1px solid rgb(204, 18, 18);
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 #services,
@@ -170,9 +172,11 @@ html {
 
 #blog-content {
     margin: 0.85rem 0;
+    /* width: 75rem; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid whitesmoke;
     background: whitesmoke;
@@ -190,34 +194,39 @@ html {
     border-radius: 0.4rem;
 }
 
-#blog-content p {
+#blog-text {
     position: relative;
     display: flex;
     align-items: center;
-    width: 35rem;
-    height: 15rem;
+    justify-content: center;
     margin: 1rem;
-    line-height: 1.3rem;
-    display: flex;
     flex-direction: column;
 }
 
-#blog-content p button {
-    cursor: pointer;
-    position: absolute;
+#blog-text p {
+    position: relative;
     left: 0;
-    bottom: 2.2rem;
+    line-height: 1.45rem;
+    width: 40rem;
+    bottom: 1.2rem;
+}
+
+#blog-text button {
+    cursor: pointer;
+    position: relative;
+    left: -16.5rem;
+    bottom: 0.5rem;
     border: none;
     outline: none;
     font-size: 1.05rem;
     padding: 0.4rem 0.75rem;
     border-radius: 0.25rem;
-    background: #f89c9c;
-    color: #3f3e3e;
+    background: #3f3e3e;
+    color: #f8dddd;
     transition: all 0.5s;
 }
 
-#blog-content p button:hover {
+#blog-content button:hover {
     background: #f8dddd;
     color: #272727;
 }
@@ -228,10 +237,11 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2em;
 }
 
 .contact-box #input-mail {
-    width: 20rem;
+    width: 30rem;
     height: 2.5rem;
     margin: 0.7rem 0 0 0;
     border: none;
@@ -242,7 +252,7 @@ html {
 }
 
 .contact-box textarea {
-    width: 20rem;
+    width: 30rem;
     height: 15rem;
     margin: 0.7rem 0;
     border: none;
@@ -261,20 +271,65 @@ html {
     font-size: 1.05rem;
     padding: 0.4rem 0.75rem;
     border-radius: 0.25rem;
-    background: #f89c9c;
-    color: #3f3e3e;
+    background: #3f3e3e;
+    color: #f8dddd;
     transition: all 0.5s;
 }
 
 .contact-box .send:hover {
-    background: #f8dddd;
-    color: #272727;
+    background: #272727;
+    color: #f8dddd;
 }
 
 #footer {
+    padding: 0.35em 0;
     margin-top: 2em;
     display: flex;
     justify-content: center;
     background: #3f3e3e;
     color: wheat;
+}
+
+@media (max-width: 1054px) {
+    .banner h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 786px) {
+    #nav-bar {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-bar ul {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    #nav-bar ul li {
+        width: 100%;
+        display: block;
+        margin: 0.4rem 0;
+        border: 1px solid black;
+    }
+
+    #nav-bar ul li a:hover {
+        width: 100%;
+        background: #fff;
+    }
+
+
 }

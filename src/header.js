@@ -2,9 +2,9 @@ import React from 'react'
 
 function header() {
     return (
-        <header className="container" id="home">
+        <header className="header" id="home">
             <div id="nav-bar">
-                <div className={"logo"}>doekas</div>
+                <div className={"logo"}>doesneakers</div>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
