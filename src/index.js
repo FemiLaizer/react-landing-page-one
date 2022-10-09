@@ -23,11 +23,14 @@ function Content() {
             <Banner />
             <Services >
             </Services>
-            <section className="collection">
-                {collection.map(item => {
-                    return <Collections key={item.id} {...item}>
-                    </Collections>
-                })}
+            <section id="collection">
+                <h3>Sneakers Collection</h3>
+                <div className="collection-box">
+                    {collection.map(item => {
+                        return <Collections key={item.id} {...item}>
+                        </Collections>
+                    })}
+                </div>
             </section>
             <Blog />
             <Contactus></Contactus>

@@ -3,7 +3,7 @@ import React from 'react'
 const collections = ({ img, name, details, price }) => {
 
     return (
-        <div className="collection-box" id="collections">
+        <div className="collection-content-box">
             <div className='collection-img'>
                 <img src={img} alt="" />
             </div>
