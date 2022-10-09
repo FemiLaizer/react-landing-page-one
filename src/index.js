@@ -10,7 +10,8 @@ import Banner from "./banner";
 import Services from "./services";
 import Blog from "./blog";
 import Collections from "./collections";
-import Contactus from "./contactus";
+import Contact from "./contact";
+import Footer from "./footer";
 
 // import collection array
 import { collection } from "./collection"
@@ -33,7 +34,8 @@ function Content() {
                 </div>
             </section>
             <Blog />
-            <Contactus></Contactus>
+            <Contact></Contact>
+            <Footer />
         </section>
     )
 }
