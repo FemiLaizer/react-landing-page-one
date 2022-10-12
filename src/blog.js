@@ -9,7 +9,8 @@ const blog = () => {
                     <img src={require("./images/blog/1.jpg")} alt="" />
                 </div>
                 <div id='blog-text'>
-                    <p>perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer. perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+                    <p>perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+                        perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
                         perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
                         perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
                         perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
