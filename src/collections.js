@@ -1,6 +1,6 @@
 import React from 'react'
 
-const collections = ({ img, name, details, price }) => {
+const collections = ({ img, name, details, price, btn }) => {
 
     return (
         <div className="collection-content-box">

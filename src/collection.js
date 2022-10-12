@@ -5,7 +5,8 @@ export const collection = [
         name: "Green-foot",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
-        price: "N40,000"
+        price: "N40,000",
+        btn: "Add Item"
     },
     {
         id: 2,
@@ -13,7 +14,8 @@ export const collection = [
         name: "Yellow-fast",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
-        price: "N35,000"
+        price: "N35,000",
+        btn: "Add Item"
     },
     {
         id: 3,
@@ -21,7 +23,8 @@ export const collection = [
         name: "Blue-sky",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
-        price: "N43,000"
+        price: "N43,000",
+        btn: "Add Item"
     },
     {
         id: 4,
@@ -29,7 +32,8 @@ export const collection = [
         name: "Red-skipper",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
-        price: "N41,000"
+        price: "N41,000",
+        btn: "Add Item"
     },
     {
         id: 5,
@@ -37,7 +41,8 @@ export const collection = [
         name: "Blue-sky",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
-        price: "N43,000"
+        price: "N43,000",
+        btn: "Add Item"
     },
     {
         id: 6,
@@ -45,7 +50,8 @@ export const collection = [
         name: "Yellow-fast",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
-        price: "N35,000"
+        price: "N35,000",
+        btn: "Add Item"
     },
     {
         id: 7,
@@ -53,7 +59,8 @@ export const collection = [
         name: "Red-skipper",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
-        price: "N41,000"
+        price: "N41,000",
+        btn: "Add Item"
     },
     {
         id: 8,
@@ -61,6 +68,7 @@ export const collection = [
         name: "Green-foot",
         details: `perfect casual wear companion. Featuring a durable rubber outer sole, 
                   they'll withstand everything the weather can offer.`,
-        price: "N40,000"
+        price: "N40,000",
+        btn: "Add Item"
     },
 ]

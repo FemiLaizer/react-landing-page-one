@@ -29,6 +29,7 @@ function Content() {
                 <div className="collection-box">
                     {collection.map(item => {
                         return <Collections key={item.id} {...item}>
+                            <button id='collection-btn'>{item.btn}</button>
                         </Collections>
                     })}
                 </div>
